@@ -11,11 +11,12 @@ Todos os comandos usam o prefixo `!`, então para evocar um comando você deve u
 
 ### Data
 
-Recebe o valor de uma data no formato `dia/mês/ano` e envia uma mensagem informando o dia da semana, a fase da lua naquele dia, e, caso possua, quaisquer feriados naquela data.
+Pode receber dois tipos de valor: de uma data no formato `dia/mês/ano` ou de um texto com o nome de alguma comemoração específica entre aspas como `"<nome-da-comemoração>"`. Para o primeiro tipo de valor é enviado uma mensagem informando o dia da semana (incluindo a posição do dia, Ex: Aztag, 1° dia.), a fase da lua naquele dia, e, caso possua, quaisquer feriados naquela data. O segundo tipo mostra apenas a descrição da festividade.
 
-Exemplo:
+Exemplos:
 
 ![Imagem de exemplo de uso do comando data](exemplo.jpeg)
+![Imagem de exemplo de uso do comando data informando o nome de uma data](exemplo-3.jpeg)
 
 ### Calendário
 
