@@ -9,6 +9,12 @@ O bot foi criado para auxiliar jogos de RPG no universo de Tormenta que utilizam
 
 Todos os comandos usam o prefixo `!`, então para evocar um comando você deve usar `!<comando> <valores>`.
 
+### Help
+
+Esse comando lista todos os comandos disponíveis junto de uma descrição sobre cada um.
+
+![Imagem de exemplo do comando help](exemplo-4.jpeg)
+
 ### Data
 
 Pode receber dois tipos de valor: de uma data no formato `dia/mês/ano` ou de um texto com o nome de alguma comemoração específica entre aspas como `"<nome-da-comemoração>"`. Para o primeiro tipo de valor é enviado uma mensagem informando o dia da semana (incluindo a posição do dia, Ex: Aztag, 1° dia.), a fase da lua naquele dia, e, caso possua, quaisquer feriados naquela data. O segundo tipo mostra apenas a descrição da festividade.
@@ -17,6 +23,12 @@ Exemplos:
 
 ![Imagem de exemplo de uso do comando data](exemplo.jpeg)
 ![Imagem de exemplo de uso do comando data informando o nome de uma data](exemplo-3.jpeg)
+
+### Signo
+
+Pode receber dois tipos de valor: o nome de um signo, ou o nome de uma mês. Para qualquer valor válido informado, será enviado uma mensagem contendo os detalhes sobre o signo.
+![Imagem de exemplo de uso do comando signo](exemplo-5.jpeg)
+![Imagem de exemplo de uso do comando signo informando o nome de um mês](exemplo-6.jpeg)
 
 ### Calendário
 
