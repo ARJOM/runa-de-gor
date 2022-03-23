@@ -30,6 +30,13 @@ Pode receber dois tipos de valor: o nome de um signo, ou o nome de uma mês. Par
 ![Imagem de exemplo de uso do comando signo](exemplo-5.jpeg)
 ![Imagem de exemplo de uso do comando signo informando o nome de um mês](exemplo-6.jpeg)
 
+### Diferença
+
+Este comando recebe duas informações de data e envia uma mensagem contendo a diferença entre elas no formato `X dias, Y meses, W semanas e Z dias`.
+
+OBS: Embora sejam contados todos os dias, incluindo os fora do calendário, é usado o mês "prático" (onde se considera que todos os meses possuem 30 dias) para calcular a diferença de meses.
+![Imagem de exemplo de uso do comando diferenca entre duas datas](exemplo-9.jpeg)
+
 ### Feriados
 
 Este comando retorna uma mensagem com uma lista de todos os feriados com nome (que, por sua vez, podem ser pesquisados com o comando `data`).
