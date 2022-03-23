@@ -35,6 +35,11 @@ Pode receber dois tipos de valor: o nome de um signo, ou o nome de uma mês. Par
 Este comando retorna uma mensagem com uma lista de todos os feriados com nome (que, por sua vez, podem ser pesquisados com o comando `data`).
 ![Imagem de exemplo de uso do comando feriados](exemplo-7.jpeg)
 
+### Signos
+
+Este comando retorna uma mensagem com uma lista de todos os signos com nome (que, por sua vez, podem ser pesquisados com o comando `signo`).
+![Imagem de exemplo de uso do comando signos](exemplo-8.jpeg)
+
 ### Calendário
 
 Recebe o valor de um ano e envia uma mensagem com a disposição do calendário do ano informado.
